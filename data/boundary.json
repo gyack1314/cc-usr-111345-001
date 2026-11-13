@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "tables": {
+    "requests": {
+      "file": "boundary-requests.jsonl",
+      "sha256": "ff9ca920ab7dc2629a4aa47fe36f2375529390cb384253db4550a8a324ea82fe",
+      "bytes": 124,
+      "rows": 3,
+      "fields": [
+        "id",
+        "tenant",
+        "tokens"
+      ]
+    },
+    "settlements": {
+      "file": "boundary-settlements.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "rows": 0,
+      "fields": [
+        "id",
+        "tenant",
+        "amount"
+      ]
+    },
+    "query_cases": {
+      "file": "boundary-query_cases.jsonl",
+      "sha256": "31126a6330adacbea7b0b6827316c721f247a780ae0402c1561152baf9d114ea",
+      "bytes": 252,
+      "rows": 2,
+      "fields": [
+        "id",
+        "operator",
+        "outer",
+        "inner",
+        "key",
+        "location"
+      ]
+    }
+  }
+}

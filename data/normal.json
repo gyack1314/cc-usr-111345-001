@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "tables": {
+    "requests": {
+      "file": "normal-requests.jsonl",
+      "sha256": "ff9ca920ab7dc2629a4aa47fe36f2375529390cb384253db4550a8a324ea82fe",
+      "bytes": 124,
+      "rows": 3,
+      "fields": [
+        "id",
+        "tenant",
+        "tokens"
+      ]
+    },
+    "settlements": {
+      "file": "normal-settlements.jsonl",
+      "sha256": "0c52b14b9753e6ff4876912dd1e8d8deac436ecbf7765516d258c845f4eac6c6",
+      "bytes": 84,
+      "rows": 2,
+      "fields": [
+        "id",
+        "tenant",
+        "amount"
+      ]
+    },
+    "query_cases": {
+      "file": "normal-query_cases.jsonl",
+      "sha256": "31126a6330adacbea7b0b6827316c721f247a780ae0402c1561152baf9d114ea",
+      "bytes": 252,
+      "rows": 2,
+      "fields": [
+        "id",
+        "operator",
+        "outer",
+        "inner",
+        "key",
+        "location"
+      ]
+    }
+  }
+}
